@@ -1,0 +1,84 @@
+.App {
+	text-align: center;
+  }
+  
+  textarea:focus, input:focus {
+	outline: none;
+	border-bottom: 1px solid rgb(15, 50, 90);
+  }
+  
+  img {
+	width: 100%;
+	height: auto; /* Allow the image to scale proportionally */
+	max-height: 650px; /* Set a maximum height to prevent excessive stretching */
+	object-fit: cover;
+	padding-bottom: 0px;
+  }
+  
+  .container {
+	margin: 10%;
+	background: #fff;
+  }
+  
+  .columnRight {
+	background-color: rgb(254,240,205);
+  }
+  .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .columnLeft, .columnRight {
+	flex: 1;
+  }
+  
+  .leftHalf {
+	box-sizing: border-box;
+	padding: 30px;
+  }
+  
+  .input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .inputLabel {
+	color: #000000;
+	font-size: 12px;
+	margin-top: 12px;
+	text-align: left; 
+	display: block; 
+  }
+  
+  .currencySymbol {
+	margin-left: 5px; /* Adjust the margin as needed for spacing */
+  }
+  
+  .error {
+	font-size: 10px;
+	color: rgb(255, 71, 71);
+  }
+  
+  .submit {
+	margin-top: 30px; /* Reduce the margin on smaller screens */
+	background: #35477d;
+	color: #fff;
+	border: none;
+	padding: 15px;
+	cursor: pointer;
+	font: inherit;
+	font-size: 12px;
+	outline: inherit;
+  }
+  
+  @media (max-width: 600px) {
+	/* Styles for screens with a maximum width of 600px */
+	.row {
+	  flex-direction: column; /* Change to column layout on smaller screens */
+	}
+  }
+  
