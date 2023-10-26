@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/stubpay/static/css/main.86268029.css",
+    "main.css": "/stubpay/static/css/main.1161bf75.css",
     "main.js": "/stubpay/static/js/main.7bce0378.js",
     "index.html": "/stubpay/index.html",
-    "main.86268029.css.map": "/stubpay/static/css/main.86268029.css.map",
+    "main.1161bf75.css.map": "/stubpay/static/css/main.1161bf75.css.map",
     "main.7bce0378.js.map": "/stubpay/static/js/main.7bce0378.js.map"
   },
   "entrypoints": [
-    "static/css/main.86268029.css",
+    "static/css/main.1161bf75.css",
     "static/js/main.7bce0378.js"
   ]
 }
