@@ -3,6 +3,7 @@ import styles from './success.module.css'
 
 const Success = () => {
 	return (
+		
 		<div className={styles.container}>
 			<div className={styles.model}>
 				<div className={styles.modelContent}>

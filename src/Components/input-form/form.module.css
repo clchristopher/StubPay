@@ -11,6 +11,7 @@
 	width: 100%;
 	height: auto; /* Allow the image to scale proportionally */
 	max-height: 650px; /* Set a maximum height to prevent excessive stretching */
+	max-width: 650px;
 	object-fit: cover;
 	padding-bottom: 0px;
   }
